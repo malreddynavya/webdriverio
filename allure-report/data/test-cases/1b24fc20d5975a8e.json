@@ -1,0 +1,129 @@
+{
+  "uid" : "1b24fc20d5975a8e",
+  "name" : "Given I'm on the login page",
+  "fullName" : "Performing a login: login with a registered user.Given I'm on the login page",
+  "historyId" : "ebc6ab1b969f0f8c0899be1617b7a0d1",
+  "time" : {
+    "start" : 1589781896176,
+    "stop" : 1589781906782,
+    "duration" : 10606
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1589781896189,
+        "stop" : 1589781904915,
+        "duration" : 8726
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "29b7fcf5e3857b95",
+        "name" : "Request",
+        "source" : "29b7fcf5e3857b95.json",
+        "type" : "application/json",
+        "size" : 40
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1589781904917,
+        "stop" : 1589781906221,
+        "duration" : 1304
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "294d6aacb8b48224",
+        "name" : "Response",
+        "source" : "294d6aacb8b48224.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1589781906227,
+        "stop" : 1589781906775,
+        "duration" : 548
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a62b985da8d78abc",
+        "name" : "Screenshot",
+        "source" : "a62b985da8d78abc.png",
+        "type" : "image/png",
+        "size" : 156051
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login: login with a registered user"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login: login with a registered user"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I'm on the login page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login: login with a registered user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b24fc20d5975a8e.json",
+  "parameterValues" : [ "chrome" ]
+}

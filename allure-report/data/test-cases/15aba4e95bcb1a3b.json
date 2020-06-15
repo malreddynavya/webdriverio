@@ -1,0 +1,129 @@
+{
+  "uid" : "15aba4e95bcb1a3b",
+  "name" : "Given I am on the home page",
+  "fullName" : "Performing a login: Able to create a Group.Given I am on the home page",
+  "historyId" : "61294ca7287b695d1bebf4e171e69011",
+  "time" : {
+    "start" : 1589769955625,
+    "stop" : 1589769958413,
+    "duration" : 2788
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1589769955637,
+        "stop" : 1589769956167,
+        "duration" : 530
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6fd3aed348a8d95d",
+        "name" : "Request",
+        "source" : "6fd3aed348a8d95d.json",
+        "type" : "application/json",
+        "size" : 55
+      }, {
+        "uid" : "b356acff758d62d1",
+        "name" : "Response",
+        "source" : "b356acff758d62d1.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/65aa5dd9-2cf1-45b6-b254-1e09e9772849/click",
+      "time" : {
+        "start" : 1589769956177,
+        "stop" : 1589769957724,
+        "duration" : 1547
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1589769957726,
+        "stop" : 1589769958405,
+        "duration" : 679
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cd66a6d7fc8ea0d9",
+        "name" : "Screenshot",
+        "source" : "cd66a6d7fc8ea0d9.png",
+        "type" : "image/png",
+        "size" : 90186
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a login: Able to create a Group"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a login: Able to create a Group"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on the home page"
+  }, {
+    "name" : "package",
+    "value" : "Performing a login: Able to create a Group"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "15aba4e95bcb1a3b.json",
+  "parameterValues" : [ "chrome" ]
+}
